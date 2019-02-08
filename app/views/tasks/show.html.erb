@@ -1,0 +1,8 @@
+<div class="container">
+  <h2><%= @task.title %></h2>
+  <p><%= @task.details %></p>
+
+  <a href="/tasks/<%= @task.id %>/edit"><button>Edit this task</button></a>
+  <br>
+  <%= link_to "Back to tasks", :tasks %>
+</div>
